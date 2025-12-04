@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- My CSS -->
+     <link rel="stylesheet" href="style.css">
+
+    <title>my company profile</title>
+  </head>
+  <body>
+
+     <!--- awal navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand text-light" href="#">Toko Baju Nakama</a>"
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+</button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-10 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-light active" aria-current="page" href="tokopakaian.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="ling.html">Daftar Baju</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Tentang Toko Kami</a>
+         <li class="nav-item">
+      <span class="navbar-text text-light">
+    Lainnya
+</span>
+      </span>
+    </div>
+  </div>
+</nav>
+  <section>
+    <h1 class="text-center mt-4">Feminim Style</h1>
+
+      <div class="col-md-4">
+          <div class="card" style="width: 100%;">
+            <img src="baju4.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+      <p>Gaya feminin dalam fashion adalah gaya berpakaian yang menonjolkan keanggunan, kelembutan, dan romantisme, seringkali dengan pilihan pakaian yang menampilkan lekuk tubuh dan detail yang manis. Gaya ini identik dengan kesan kalem, manis, dan didominasi oleh warna-warna lembut serta bahan-bahan seperti sutra, renda, dan chiffon. </p>
+ <a href="Pesan.html" class="btn btn-primary">Beli Sekarang</a>
+
+      </a>
+    </div>
+  </section>
+
+  <script>
+    function gantiGambar() {
+      const pilihan = document.getElementById("gambarSelect").value;
+      const gambar = document.getElementById("gambarBaju");
+      gambar.src = pilihan;
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
